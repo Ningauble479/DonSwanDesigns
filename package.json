@@ -1,0 +1,19 @@
+{
+  "name": "donswandesigns",
+  "version": "1.0.0",
+  "description": "For don swanson",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ningauble479/DonSwanDesigns.git"
+  },
+  "author": "Devon Owen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ningauble479/DonSwanDesigns/issues"
+  },
+  "homepage": "https://github.com/Ningauble479/DonSwanDesigns#readme"
+}
