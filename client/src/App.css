@@ -1,0 +1,143 @@
+.App {
+  text-align: center;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.linkFix:visited {
+  color: inherit
+}
+
+.linkFix {
+  text-decoration: none;
+  color: inherit;
+}
+
+mark {
+  background-color: none;
+}
+
+html {
+  overflow: hidden;
+}
+
+.potModal {
+  width: 50%;
+  height: 50%
+}
+
+
+.navButton {
+  min-height: 48px;
+  background: white;
+  border: none;
+  flex-grow: 1;
+  cursor: pointer;
+  transition: .2s all;
+  outline: none;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.navButton:hover {
+  background: black!important;
+  color: white;
+}
+
+.navButton:active {
+  background: gray!important;
+  outline: none;
+}
+
+.dropDownOpen {
+  width: 100vw;
+  height: 250px;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  transition: .5s all;
+  overflow: hidden;
+  color: white;
+  background: black;
+}
+
+.dropDownClose {
+  height: 0;
+  color: white;
+  width: 100vw;
+  top: 50px;
+  left: 0;
+  background: black;
+  color: none;
+  overflow: hidden;
+  position: absolute;
+  transition: .5s all;
+}
+
+.dropDownButtons {
+  width: 100%;
+  background: none;
+  color: white;
+  border: none;
+  height: 50px;
+  font-size: 22px;
+  letter-spacing: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.dropDownButtons:hover {
+  background-color: gray;
+}
+
+.potCard {
+  background-size: cover;
+  background-position: center;
+  transition: 1s all;
+}
+
+.potCard:hover {
+  cursor: pointer;
+  background-size: 800px;
+  transition: 1s all;
+}
+
+.potCard:active {
+  background-size: cover;
+}
+
+.potModal {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.5);
+  position: fixed;
+  z-index: 4;
+}
+
+.potModalInner {
+  width: 75%;
+  height: 75%;
+  background-color: whitesmoke;
+  border: 2px solid black;
+  border-radius: 25px;
+}
+
+.potModalPic {
+
+  background-size: cover;
+  background-position: center;
+}
+
+.modalExit {
+  font-size: 30px;
+  width: 60px;
+}
+
+.modalExit:hover {
+  cursor: pointer;
+}
+
+.cartDrawer {
+  max-width: 600px;
+  height: 100%
+}
